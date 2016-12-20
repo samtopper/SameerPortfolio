@@ -1,2 +1,20 @@
-# SameerPortfolio
-A simple portfolio describing my technical blogs I maintain.
+# Sameer's Portfolio.
+
+This portfolio describes the technical blogs I maintain.
+This project is part of my Front-End Web Developer Nanodegree with Udacity.
+
+## How to use.
+
+* Click this link for the webpage or download the repository to your local machine & open index.html in your browser.
+
+* Click the C++, Java & Python icons to open a modal which has a little more description & a link to my blog.
+
+* The bottom social media icons will redirect to the respective page.
+
+* The 'cat' image at center is just a placeholder, I will update with some of my other works there.
+
+* This portfolio is under development, if you have any good suggestion for improving it I will be happy to know them.
+
+
+
+

@@ -1,0 +1,85 @@
+
+@media screen and (min-width: 500px) {
+
+        .title-super {
+            font-size: 30px;
+            font-stretch: expanded;
+        }
+
+        .title-sub {
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .break {
+            border-width: 3px;
+            border-color: #7d97ad;
+        }
+
+        .text-muted {
+            color: #7d97ad;
+            font-weight: bold;
+            font-size: 3vw;
+            font-stretch: extra-expanded;
+        }
+
+        .my-label {
+            color: #2d3c49;
+            font-weight: bold;
+            font-size: 2.5vw;
+        }
+
+        .my-link {
+            color: #2d3c49;
+            font-weight: 20px;
+            font-size: 2vw;
+            width: 100%;
+            font-stretch: extra-expanded;
+        }
+
+        div#social {
+            font-size: 1.5vw;
+            }
+}
+
+
+@media screen and (min-width: 800px) {
+
+        .title-super {
+            font-size: 4vw;
+         }
+
+        .title-sub {
+            font-size: 2vw;
+            font-weight: bold;
+        }
+
+        .break {
+            border-width: 5px;
+            border-color: #7d97ad;
+        }
+
+        .text-muted {
+            color: #7d97ad;
+            font-weight: bold;
+            font-size: 3vw;
+        }
+
+        .my-label {
+            color: #2d3c49;
+            font-weight: bold;
+            font-size: 2.5vw;
+        }
+
+        .my-link {
+            color: #2d3c49;
+            font-weight: 20px;
+            font-size: 2vw;
+            width: 100%;
+            font-stretch: extra-expanded;
+        }
+
+        div#social {
+            font-size: 1.5vw;
+            }
+}

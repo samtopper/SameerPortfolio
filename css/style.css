@@ -1,0 +1,75 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+.logo {
+  fill: #666;
+  height: 6vw;
+  margin: 1em auto 0.5em auto;
+  width: 6vw;
+}
+
+.title-super {
+    font-size: 5vw;
+    font-stretch: expanded;
+}
+
+.title-sub {
+    font-size: small;
+    font-weight: bold;
+}
+
+.break {
+    border-width: 1px;
+    border-color: #7d97ad;
+}
+.text-muted {
+    color: #7d97ad;
+    font-weight: bold;
+    font-size: 4vw;
+    font-stretch: expanded;
+}
+
+.my-label {
+    color: #2d3c49;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.my-link {
+    color: #2d3c49;
+    font-weight: 20px;
+    font-size: xx-small;
+    width: 100%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+  color: black;
+  width: 2em;
+  display: inline-block;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+div#social {
+  line-height: 2em;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+        <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="row ">
+                <figure class="col-xs-4">
+                    <img class="img-responsive logo" src="img/samlogo.png" alt="logo-icon">
+                </figure>
+                <div class="col-xs-8 text-right text-uppercase">
+                    <h1 class="title-super">Sameer Ahmed Khan</h1>
+                    <h4 class="title-sub">Front-end Ninja</h4>
+                </div>
+            </header>
+
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <hr class="break">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <figure >
+                        <picture >
+                            <source media="(min-width: 800px)"
+                                    srcset="http://placekitten.com/1140/450">
+                            <source media="(min-width: 500px)"
+                                    srcset="http://placekitten.com/750/350">
+                            <img class="img-responsive img-rounded" src="http://placekitten.com/450/200" alt="central-image">
+                        </picture>
+                    </figure>
+                </div>
+            </div>
+
+            <section class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-muted">Featured Work 🌟</h2>
+                </div>
+            </section>
+
+            <section class="row text-center">
+                <figure class="col-xs-4 ">
+                    <img class="img-responsive center" src="img/cpp-link.svg" alt="cpp-image" width="50%" data-toggle="modal" data-target="#project1">
+                    <h3 class="text-uppercase my-label">C plus plus</h3>
+                    <p class="my-link">cppforyou1.blogspot.in</p>
+                </figure>
+
+                <figure class="col-xs-4 ">
+                    <img class="img-responsive center" src="img/java-link.svg" alt="java-image" width="50%" data-toggle="modal" data-target="#project2">
+                    <h3 class="text-uppercase my-label">Java</h3>
+                    <p class="my-link">letsthinkjava.blogspot.in</p>
+                </figure>
+
+                <figure class="col-xs-4">
+                    <img class="img-responsive center" src="img/python-link.svg" alt="python-image" width="50%" data-toggle="modal" data-target="#project3">
+                    <h3 class="text-uppercase my-label">Python</h3>
+                    <p class="my-link">experimentpython.blogspot.in</p>
+                </figure>
+            </section>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <hr class="break">
+                </div>
+            </div>
+
+            <footer>
+                <div id=social>
+                    <a href="#" class="zocial-twitter">Twitter</a>
+                    <a href="#" class="zocial-linkedin">LinkedIn</a>
+                    <a href="#" class="zocial-facebook">Facebook</a>
+                    <a href="https://github.com/samtopper" class="zocial-github">Github</a>
+                </div>
+
+                <div>Icons made by
+                    <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver
+                    </a> from
+                    <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+                    is licensed by
+                    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                </div>
+            </footer>
+        </div>
+
+    <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Cpp blog.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/cpp-mini.png">
+                        - a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation.
+                        <p>Visit my blog on Cpp <a href="http://cppforyou1.blogspot.in/" target="_blank"> here </a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Java blog.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/java-mini.png">
+                        Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
+                        <p>Visit my blog on Java <a href="https://letsthinkjava.blogspot.in/" target="_blank">here. </a> </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Python blog.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/python-mini.png">
+                        Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java.
+                        <p>Visit my python blog <a href="http://experimentpython.blogspot.in/" target="_blank"> here.</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
