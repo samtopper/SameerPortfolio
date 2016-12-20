@@ -13,6 +13,8 @@ This project is part of my Front-End Web Developer Nanodegree with Udacity.
 
 * The 'cat' image at center is just a placeholder, I will update with some of my other works there.
 
+* After loading the webpage if the central cat image & social media icons are not displayed then you have allow loading them by clicking 'load unsafe scripts' present at right side of the search bar.
+
 * This portfolio is under development, if you have any good suggestion for improving it I will be happy to know them.
 
 
