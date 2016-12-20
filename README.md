@@ -5,7 +5,7 @@ This project is part of my Front-End Web Developer Nanodegree with Udacity.
 
 ## How to use.
 
-* Click this link for the webpage or download the repository to your local machine & open index.html in your browser.
+* Click this [link](https://samtopper.github.io/SameerPortfolio/) for the webpage or download the repository to your local machine & open index.html in your browser.
 
 * Click the C++, Java & Python icons to open a modal which has a little more description & a link to my blog.
 
